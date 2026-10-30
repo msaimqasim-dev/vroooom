@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "width": 1920,
+      "threePageNavigation": "PASS",
+      "images": "PASS",
+      "lightbox": "PASS",
+      "reducedMotion": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 1440,
+      "threePageNavigation": "PASS",
+      "images": "PASS",
+      "lightbox": "PASS",
+      "reducedMotion": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 1024,
+      "threePageNavigation": "PASS",
+      "images": "PASS",
+      "lightbox": "PASS",
+      "reducedMotion": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 768,
+      "threePageNavigation": "PASS",
+      "images": "PASS",
+      "lightbox": "PASS",
+      "reducedMotion": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 390,
+      "threePageNavigation": "PASS",
+      "images": "PASS",
+      "lightbox": "PASS",
+      "reducedMotion": "PASS",
+      "overflow": "NONE"
+    }
+  ]
+}

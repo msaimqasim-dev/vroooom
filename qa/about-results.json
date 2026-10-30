@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "width": 1920,
+      "nineSections": "PASS",
+      "images": "PASS",
+      "navigation": "PASS",
+      "timelineReverseAndStop": "PASS",
+      "testimonialWrapAndKeyboard": "PASS",
+      "faqKeyboard": "PASS",
+      "reducedMotion": "PASS",
+      "cleanup": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 1440,
+      "nineSections": "PASS",
+      "images": "PASS",
+      "navigation": "PASS",
+      "timelineReverseAndStop": "PASS",
+      "testimonialWrapAndKeyboard": "PASS",
+      "faqKeyboard": "PASS",
+      "reducedMotion": "PASS",
+      "cleanup": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 1024,
+      "nineSections": "PASS",
+      "images": "PASS",
+      "navigation": "PASS",
+      "timelineReverseAndStop": "PASS",
+      "testimonialWrapAndKeyboard": "PASS",
+      "faqKeyboard": "PASS",
+      "reducedMotion": "PASS",
+      "cleanup": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 768,
+      "nineSections": "PASS",
+      "images": "PASS",
+      "navigation": "PASS",
+      "timelineReverseAndStop": "PASS",
+      "testimonialWrapAndKeyboard": "PASS",
+      "faqKeyboard": "PASS",
+      "reducedMotion": "PASS",
+      "cleanup": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 390,
+      "nineSections": "PASS",
+      "images": "PASS",
+      "navigation": "PASS",
+      "timelineReverseAndStop": "PASS",
+      "testimonialWrapAndKeyboard": "PASS",
+      "faqKeyboard": "PASS",
+      "reducedMotion": "PASS",
+      "cleanup": "PASS",
+      "overflow": "NONE"
+    }
+  ],
+  "runtimeErrors": [],
+  "localAssetFailures": []
+}

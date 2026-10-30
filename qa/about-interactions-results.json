@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "width": 1440,
+      "faqIntermediateHeight": {
+        "current": 31.578125,
+        "full": 72,
+        "animations": 1
+      },
+      "rapidReversal": "PASS",
+      "focus": "PASS",
+      "reducedMotion": "PASS"
+    },
+    {
+      "width": 390,
+      "faqIntermediateHeight": {
+        "current": 41.46875,
+        "full": 95,
+        "animations": 1
+      },
+      "rapidReversal": "PASS",
+      "focus": "PASS",
+      "reducedMotion": "PASS"
+    }
+  ]
+}

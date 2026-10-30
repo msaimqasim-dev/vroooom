@@ -1,0 +1,357 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "width": 1920,
+      "primary": "#6b0b8e",
+      "dark": "rgb(24, 12, 34)",
+      "light": "rgb(250, 247, 252)",
+      "heroGradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "footerGradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "filters": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "decorative": [
+        "hue-rotate(90deg) saturate(0.8)",
+        "hue-rotate(90deg) saturate(0.8)"
+      ],
+      "overflow": false,
+      "samples": [
+        {
+          "selector": ".agency-copy>p",
+          "ratio": 4.860167095441551
+        },
+        {
+          "selector": ".hero-description",
+          "ratio": 11.868707325619152
+        },
+        {
+          "selector": ".services-showcase-intro",
+          "ratio": 11.868707325619152
+        },
+        {
+          "selector": ".services-image-note",
+          "ratio": 8.704430919913362
+        },
+        {
+          "selector": "#contact .button",
+          "ratio": 9.582523253742727
+        },
+        {
+          "selector": ".footer-bottom",
+          "ratio": 8.704430919913362
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "primary": "#6b0b8e",
+      "dark": "rgb(24, 12, 34)",
+      "light": "rgb(250, 247, 252)",
+      "heroGradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "footerGradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "filters": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "decorative": [
+        "hue-rotate(90deg) saturate(0.8)",
+        "hue-rotate(90deg) saturate(0.8)"
+      ],
+      "overflow": false,
+      "samples": [
+        {
+          "selector": ".agency-copy>p",
+          "ratio": 4.860167095441551
+        },
+        {
+          "selector": ".hero-description",
+          "ratio": 11.868707325619152
+        },
+        {
+          "selector": ".services-showcase-intro",
+          "ratio": 11.868707325619152
+        },
+        {
+          "selector": ".services-image-note",
+          "ratio": 8.704430919913362
+        },
+        {
+          "selector": "#contact .button",
+          "ratio": 9.582523253742727
+        },
+        {
+          "selector": ".footer-bottom",
+          "ratio": 8.704430919913362
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "primary": "#6b0b8e",
+      "dark": "rgb(24, 12, 34)",
+      "light": "rgb(250, 247, 252)",
+      "heroGradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "footerGradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "filters": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "decorative": [
+        "hue-rotate(90deg) saturate(0.8)",
+        "hue-rotate(90deg) saturate(0.8)"
+      ],
+      "overflow": false,
+      "samples": [
+        {
+          "selector": ".agency-copy>p",
+          "ratio": 4.860167095441551
+        },
+        {
+          "selector": ".hero-description",
+          "ratio": 11.868707325619152
+        },
+        {
+          "selector": ".services-showcase-intro",
+          "ratio": 11.868707325619152
+        },
+        {
+          "selector": ".services-image-note",
+          "ratio": 8.704430919913362
+        },
+        {
+          "selector": "#contact .button",
+          "ratio": 9.582523253742727
+        },
+        {
+          "selector": ".footer-bottom",
+          "ratio": 8.704430919913362
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "primary": "#6b0b8e",
+      "dark": "rgb(24, 12, 34)",
+      "light": "rgb(250, 247, 252)",
+      "heroGradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "footerGradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "filters": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "decorative": [
+        "hue-rotate(90deg) saturate(0.8)",
+        "hue-rotate(90deg) saturate(0.8)"
+      ],
+      "overflow": false,
+      "samples": [
+        {
+          "selector": ".agency-copy>p",
+          "ratio": 4.860167095441551
+        },
+        {
+          "selector": ".hero-description",
+          "ratio": 11.868707325619152
+        },
+        {
+          "selector": ".services-showcase-intro",
+          "ratio": 11.868707325619152
+        },
+        {
+          "selector": ".services-image-note",
+          "ratio": 8.704430919913362
+        },
+        {
+          "selector": "#contact .button",
+          "ratio": 9.582523253742727
+        },
+        {
+          "selector": ".footer-bottom",
+          "ratio": 8.704430919913362
+        }
+      ]
+    }
+  ]
+}

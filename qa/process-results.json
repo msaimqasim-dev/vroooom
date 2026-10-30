@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "width": 1920,
+      "height": 989.984375,
+      "reactContentGeometryTypography": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 1440,
+      "height": 1058.375,
+      "reactContentGeometryTypography": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 768,
+      "height": 1137.0625,
+      "reactContentGeometryTypography": "PASS",
+      "overflow": "NONE"
+    },
+    {
+      "width": 390,
+      "height": 1175.875,
+      "reactContentGeometryTypography": "PASS",
+      "overflow": "NONE"
+    }
+  ],
+  "reveals": "PASS",
+  "desktopPinAndReverse": "PASS",
+  "reducedMotion": "PASS",
+  "runtimeExceptions": []
+}

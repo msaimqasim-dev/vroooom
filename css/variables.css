@@ -1,0 +1,29 @@
+/* Purple #6B0B8E verified in the live site's Elementor kit:
+ * https://www.vroooom.com/wp-content/uploads/elementor/css/post-13.css
+ * The supporting palette below is derived for this rebuild, not an official brand guide.
+ * All shared components and future pages load this stylesheet before section CSS.
+ */
+:root {
+  --color-primary: #6b0b8e;
+  --color-primary-dark: #45085d;
+  --color-primary-light: #dbc0ed;
+  --color-accent: #b989d5;
+  --color-background-dark: #180c22;
+  --color-background-light: #faf7fc;
+  --color-text: #302239;
+  --color-muted: #5b5261;
+  --color-border: #bda8ca;
+  --color-gradient-start: #8442a3;
+  --color-gradient-end: #180c22;
+  --color-white: #ffffff;
+  --color-surface-lavender: #eee5f4;
+  --color-glow-lavender: #dfc9ee;
+  --color-glow-soft: #f0e6f7;
+  --color-text-on-dark: #d5c9dd;
+  --color-text-on-dark-muted: #bda9cb;
+  --color-surface-dark: #251231;
+  --color-primary-hover: #541070;
+  --color-black: #000000;
+  /* Applied only to decorative green raster backgrounds; never to client images. */
+  --decorative-purple-filter: hue-rotate(90deg) saturate(.8);
+}

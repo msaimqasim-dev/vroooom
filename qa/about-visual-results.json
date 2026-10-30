@@ -1,0 +1,193 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "width": 1920,
+      "contentWidth": 1905,
+      "count": 4,
+      "gradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "durations": [
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "delays": [
+        "0s",
+        "-1.25s",
+        "-2.5s",
+        "-3.75s"
+      ],
+      "heights": [
+        653,
+        589,
+        484,
+        387
+      ],
+      "artLeft": 1143,
+      "artTop": 0,
+      "headingRight": 1037.84375,
+      "navBottom": 771.78125,
+      "overflow": false,
+      "workspace": 1,
+      "collaboration": 1,
+      "imageReveals": 4,
+      "imageFilters": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "oldGlow": false,
+      "waveMovement": "PASS",
+      "portraitHover": "PASS",
+      "reducedMotion": "PASS"
+    },
+    {
+      "width": 1440,
+      "contentWidth": 1425,
+      "count": 4,
+      "gradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "durations": [
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "delays": [
+        "0s",
+        "-1.25s",
+        "-2.5s",
+        "-3.75s"
+      ],
+      "heights": [
+        733,
+        660,
+        543,
+        434
+      ],
+      "artLeft": 855,
+      "artTop": 0,
+      "headingRight": 742.609375,
+      "navBottom": 869.40625,
+      "overflow": false,
+      "workspace": 1,
+      "collaboration": 1,
+      "imageReveals": 4,
+      "imageFilters": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "oldGlow": false,
+      "waveMovement": "PASS",
+      "portraitHover": "PASS",
+      "reducedMotion": "PASS"
+    },
+    {
+      "width": 768,
+      "contentWidth": 753,
+      "count": 4,
+      "gradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "durations": [
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "delays": [
+        "0s",
+        "-1.25s",
+        "-2.5s",
+        "-3.75s"
+      ],
+      "heights": [
+        607,
+        547,
+        449,
+        359
+      ],
+      "artLeft": 451.796875,
+      "artTop": 0,
+      "headingRight": 406.15625,
+      "navBottom": 713.8125,
+      "overflow": false,
+      "workspace": 1,
+      "collaboration": 1,
+      "imageReveals": 4,
+      "imageFilters": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "oldGlow": false,
+      "waveMovement": "PASS",
+      "portraitHover": "PASS",
+      "reducedMotion": "PASS"
+    },
+    {
+      "width": 390,
+      "contentWidth": 375,
+      "count": 4,
+      "gradients": [
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)",
+        "linear-gradient(to top, rgb(132, 66, 163) 0%, color(srgb 0.348235 0.174118 0.436863) 32%, rgba(0, 0, 0, 0) 100%)"
+      ],
+      "durations": [
+        10000,
+        10000,
+        10000,
+        10000
+      ],
+      "delays": [
+        "0s",
+        "-1.25s",
+        "-2.5s",
+        "-3.75s"
+      ],
+      "heights": [
+        146,
+        131,
+        108,
+        86
+      ],
+      "artLeft": 178.8125,
+      "artTop": 590.015625,
+      "headingRight": 340.921875,
+      "navBottom": 565.015625,
+      "overflow": false,
+      "workspace": 1,
+      "collaboration": 1,
+      "imageReveals": 4,
+      "imageFilters": [
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "oldGlow": false,
+      "waveMovement": "PASS",
+      "portraitHover": "PASS",
+      "reducedMotion": "PASS"
+    }
+  ]
+}

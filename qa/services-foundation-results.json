@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "width": 1920,
+      "overflow": "NONE",
+      "entrance": "PASS",
+      "motion": "PASS",
+      "reducedMotion": "PASS",
+      "placeholders": "PASS",
+      "navigation": "PASS"
+    },
+    {
+      "width": 1440,
+      "overflow": "NONE",
+      "entrance": "PASS",
+      "motion": "PASS",
+      "reducedMotion": "PASS",
+      "placeholders": "PASS",
+      "navigation": "PASS"
+    },
+    {
+      "width": 768,
+      "overflow": "NONE",
+      "entrance": "PASS",
+      "motion": "PASS",
+      "reducedMotion": "PASS",
+      "placeholders": "PASS",
+      "navigation": "PASS"
+    },
+    {
+      "width": 390,
+      "overflow": "NONE",
+      "entrance": "PASS",
+      "motion": "PASS",
+      "reducedMotion": "PASS",
+      "placeholders": "PASS",
+      "navigation": "PASS"
+    }
+  ]
+}

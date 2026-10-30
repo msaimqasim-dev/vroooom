@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "width": 1920,
+      "page": "/services/",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "/website-design/",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "/website-marketing/",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "/website-hosting/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/about/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/portfolio/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/blog/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/contact-us/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/services/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/website-design/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/website-marketing/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/website-hosting/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/blog/posts/ad-dollars-go-digital-breaking-down-the-2025-global-spend-forecast/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/blog/posts/atlanta-rides-into-the-future-uber-and-waymo-launch-groundbreaking-robotaxi-service/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/blog/posts/facebook-and-instagram-outage/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/blog/posts/google-launches-ai-ad-tools-for-indian-marketers/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/blog/posts/recent-site-launches/",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "/blog/posts/time-is-running-out-to-migrate-to-google-analytics-4/",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "/services/",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "/website-design/",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "/website-marketing/",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "/website-hosting/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/about/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/portfolio/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/blog/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/contact-us/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/services/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/website-design/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/website-marketing/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/website-hosting/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/blog/posts/ad-dollars-go-digital-breaking-down-the-2025-global-spend-forecast/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/blog/posts/atlanta-rides-into-the-future-uber-and-waymo-launch-groundbreaking-robotaxi-service/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/blog/posts/facebook-and-instagram-outage/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/blog/posts/google-launches-ai-ad-tools-for-indian-marketers/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/blog/posts/recent-site-launches/",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "/blog/posts/time-is-running-out-to-migrate-to-google-analytics-4/",
+      "status": "PASS"
+    }
+  ],
+  "checkedLocalURLs": 69
+}

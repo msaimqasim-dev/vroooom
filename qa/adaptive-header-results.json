@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "page": "/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 10
+    },
+    {
+      "page": "/about/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 10
+    },
+    {
+      "page": "/portfolio/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 7
+    },
+    {
+      "page": "/blog/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 5
+    },
+    {
+      "page": "/contact-us/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 5
+    },
+    {
+      "page": "/services/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 8
+    },
+    {
+      "page": "/website-design/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 9
+    },
+    {
+      "page": "/website-marketing/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 7
+    },
+    {
+      "page": "/website-hosting/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 8
+    },
+    {
+      "page": "/blog/posts/ad-dollars-go-digital-breaking-down-the-2025-global-spend-forecast/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 6
+    },
+    {
+      "page": "/blog/posts/atlanta-rides-into-the-future-uber-and-waymo-launch-groundbreaking-robotaxi-service/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 6
+    },
+    {
+      "page": "/blog/posts/facebook-and-instagram-outage/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 4
+    },
+    {
+      "page": "/blog/posts/google-launches-ai-ad-tools-for-indian-marketers/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 6
+    },
+    {
+      "page": "/blog/posts/recent-site-launches/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 5
+    },
+    {
+      "page": "/blog/posts/time-is-running-out-to-migrate-to-google-analytics-4/",
+      "width": 1440,
+      "status": "PASS",
+      "regions": 6
+    },
+    {
+      "page": "/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 10
+    },
+    {
+      "page": "/about/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 10
+    },
+    {
+      "page": "/portfolio/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 7
+    },
+    {
+      "page": "/blog/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 5
+    },
+    {
+      "page": "/contact-us/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 5
+    },
+    {
+      "page": "/services/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 8
+    },
+    {
+      "page": "/website-design/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 9
+    },
+    {
+      "page": "/website-marketing/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 7
+    },
+    {
+      "page": "/website-hosting/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 8
+    },
+    {
+      "page": "/blog/posts/ad-dollars-go-digital-breaking-down-the-2025-global-spend-forecast/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 6
+    },
+    {
+      "page": "/blog/posts/atlanta-rides-into-the-future-uber-and-waymo-launch-groundbreaking-robotaxi-service/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 6
+    },
+    {
+      "page": "/blog/posts/facebook-and-instagram-outage/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 4
+    },
+    {
+      "page": "/blog/posts/google-launches-ai-ad-tools-for-indian-marketers/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 6
+    },
+    {
+      "page": "/blog/posts/recent-site-launches/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 5
+    },
+    {
+      "page": "/blog/posts/time-is-running-out-to-migrate-to-google-analytics-4/",
+      "width": 390,
+      "status": "PASS",
+      "regions": 6
+    }
+  ],
+  "pinnedReverse": "PASS"
+}

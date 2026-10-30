@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "width": 1920,
+      "height": 720.125,
+      "headingFont": "108px",
+      "referenceGeometry": "PASS",
+      "wave": "PASS",
+      "entrance": "PASS",
+      "reducedMotion": "PASS",
+      "noOverlapOrOverflow": "PASS"
+    },
+    {
+      "width": 1440,
+      "height": 716.25,
+      "headingFont": "106.56px",
+      "referenceGeometry": "PASS",
+      "wave": "PASS",
+      "entrance": "PASS",
+      "reducedMotion": "PASS",
+      "noOverlapOrOverflow": "PASS"
+    },
+    {
+      "width": 768,
+      "height": 620.96875,
+      "headingFont": "64px",
+      "referenceGeometry": "PASS",
+      "wave": "PASS",
+      "entrance": "PASS",
+      "reducedMotion": "PASS",
+      "noOverlapOrOverflow": "PASS"
+    },
+    {
+      "width": 390,
+      "height": 640.5625,
+      "headingFont": "40.95px",
+      "referenceGeometry": "PASS",
+      "wave": "PASS",
+      "entrance": "PASS",
+      "reducedMotion": "PASS",
+      "noOverlapOrOverflow": "PASS"
+    }
+  ],
+  "runtimeExceptions": []
+}

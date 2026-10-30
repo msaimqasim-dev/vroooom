@@ -1,0 +1,48 @@
+/* Scoped equivalents of the React global styles; section rules follow below. */
+.services-showcase { box-sizing:border-box; font-family:Manrope,Arial,sans-serif; font-synthesis:none; font-weight:500; line-height:1.5; --services-background:url('../../assets/images/agency/services-background.png'); }
+.services-showcase *, .services-showcase *::before, .services-showcase *::after { box-sizing:border-box; }
+:where(.services-showcase) h2, :where(.services-showcase) h3, :where(.services-showcase) p { margin:0; }
+.services-showcase h2 { font-weight:500; }
+.services-showcase p { line-height:1.8; }
+.services-showcase em { font-family:'Instrument Serif',Georgia,serif; font-weight:400; }
+:where(.services-showcase) a { color:inherit; text-decoration:none; -webkit-tap-highlight-color:transparent; }
+:where(.services-showcase) button { font:inherit; color:inherit; cursor:pointer; padding:0; -webkit-tap-highlight-color:transparent; }
+.services-showcase svg { display:block; flex-shrink:0; }
+.services-showcase a:focus-visible, .services-showcase button:focus-visible { outline:2px solid var(--color-primary-light); outline-offset:6px; }
+.services-showcase .section-label { display:flex; align-items:center; gap:10px; font-size:10px; letter-spacing:1.1px; }
+.services-showcase .dot { display:inline-block; width:7px; height:7px; border-radius:50%; }
+.services-showcase .label-number { letter-spacing:0; }
+.services-stage { touch-action:pan-y pinch-zoom; }
+@media(max-width:767px) { .services-showcase .section-label { letter-spacing:.6px; } }
+.services-showcase{position:relative;isolation:isolate;overflow:hidden;background:var(--color-background-dark);color:var(--color-background-light);padding:85px max(4vw,22px) 65px}
+.services-showcase::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(color-mix(in srgb, var(--color-black) 33.333%, transparent),color-mix(in srgb, var(--color-black) 53.333%, transparent)),var(--services-background,radial-gradient(ellipse at 50% 75%,color-mix(in srgb, var(--color-primary) 23.922%, transparent),transparent 65%));background-position:center;background-size:cover}
+.services-showcase .section-label{justify-content:center;color:var(--color-text-on-dark);margin-bottom:25px}
+.services-showcase .section-label .dot{background:var(--color-primary-light)}
+.services-showcase .label-number{margin-left:12px;color:var(--color-text-on-dark)}
+.services-showcase-heading{text-align:center;max-width:900px;margin:0 auto;font-size:clamp(42px,5vw,72px);letter-spacing:-3px;line-height:1.08}
+.services-showcase-heading em{color:var(--color-primary-light)}
+.services-showcase-intro{text-align:center;font-size:13px;color:var(--color-text-on-dark);max-width:550px;margin:22px auto 0;line-height:1.8}
+.services-carousel{position:relative;max-width:1560px;margin:48px auto 0;outline:none}
+.services-stage{position:relative;height:var(--stage-height,470px);overflow:hidden}
+.services-slide{position:absolute;left:50%;bottom:0;width:var(--service-card-width,310px);height:var(--stage-height,470px);margin:0;border-radius:10px;transform-origin:bottom center;will-change:transform;overflow:hidden;background:var(--color-text);box-shadow:0 15px 32px color-mix(in srgb, var(--color-black) 15.686%, transparent)}
+.services-slide img{width:100%;height:100%;object-fit:cover;display:block}
+.services-slide::after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(color-mix(in srgb, var(--color-background-dark) 46.667%, transparent),transparent 45%,color-mix(in srgb, var(--color-background-dark) 85.098%, transparent))}
+.services-slide-name{position:absolute;z-index:2;top:24px;left:24px;right:24px;font-size:24px;letter-spacing:-.6px;line-height:1.2;font-weight:600;text-shadow:0 2px 10px color-mix(in srgb, var(--color-black) 33.333%, transparent)}
+.services-slide-detail{position:absolute;z-index:2;bottom:26px;left:24px;right:24px;opacity:0;transform:translateY(18px);transition:opacity .3s,transform .3s}
+.services-slide-detail p{font-size:14px;line-height:1.7;color:var(--color-text-on-dark);margin-bottom:20px}
+.services-slide:hover .services-slide-detail,.services-slide:focus-within .services-slide-detail{opacity:1;transform:translateY(0)}
+.services-book{display:inline-flex;align-items:center;gap:16px;border:1px solid color-mix(in srgb, var(--color-background-light) 53.333%, transparent);border-radius:40px;background:var(--color-background-light);color:var(--color-background-dark);padding:13px 17px;font-size:12px;font-weight:600}
+.services-slide:focus-visible{outline:2px solid var(--color-primary-light);outline-offset:-4px}
+.services-book:focus-visible,.services-control:focus-visible{outline-color:var(--color-primary-light)}
+.services-controls{display:flex;align-items:center;justify-content:center;gap:22px;margin:25px auto 0;max-width:540px}
+.services-control{width:40px;height:40px;border:1px solid color-mix(in srgb, var(--color-primary-light) 33.333%, transparent);border-radius:50%;background:transparent;color:var(--color-primary-light);display:grid;place-items:center;transition:background .2s;flex-shrink:0}
+.services-control:hover{background:color-mix(in srgb, var(--color-primary-light) 9.804%, transparent)}.services-control:disabled{opacity:.45;cursor:default}
+.services-progress{flex:1;height:2px;background:color-mix(in srgb, var(--color-background-light) 18.824%, transparent);position:relative;overflow:hidden}
+.services-progress span{position:absolute;top:0;width:20%;height:100%;background:var(--color-primary-light);transition:left .7s cubic-bezier(.65,0,.35,1)}
+.services-status{text-align:center;font-size:10px;color:var(--color-text-on-dark);margin-top:18px;letter-spacing:.5px}
+.services-image-note{text-align:center;font-size:9px;color:var(--color-text-on-dark-muted);margin-top:24px}
+@media(max-width:767px){.services-showcase{padding:65px 0 45px}.services-showcase .section-label{font-size:8px}.services-showcase-heading{padding-inline:22px;font-size:45px;letter-spacing:-2px}.services-showcase-intro{padding-inline:28px;font-size:12px}.services-carousel{margin-top:32px}.services-slide-name{font-size:23px;left:20px;right:20px;top:22px}.services-slide-detail{left:20px;right:20px;bottom:24px}.services-slide-detail p{font-size:13px}.services-controls{margin-inline:28px}.services-image-note{padding-inline:24px}.services-slide[data-active="true"] .services-slide-detail{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.services-slide-detail,.services-progress span,.services-control{transition:none}.services-slide{will-change:auto}}
+
+/* Tint the decorative raster layer only; screenshot imagery stays unchanged. */
+.services-showcase::before { filter: var(--decorative-purple-filter); }
