@@ -74,3 +74,6 @@
   .why .values article { padding-left: 30px; }
   .why .text-link { margin-left: 30px; }
 }
+
+/* Decorative numbering removed; close only its former layout space. */
+.why .values article{padding-left:0}.why .text-link{margin-left:0}

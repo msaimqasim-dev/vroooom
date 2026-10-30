@@ -13,7 +13,7 @@ const originalRoutes = Object.freeze({
   '/our-history/': 'about/#history',
   '/our-awards/': 'about/#awards',
   '/testimonials/': 'about/#testimonials',
-  '/faq/': 'about/#faqs',
+  '/faq/': 'faq/',
   '/portfolio/': 'portfolio/#websites',
   '/logo-portfolio/': 'portfolio/#logos',
   '/what-we-offer/': serviceRoutes.services,

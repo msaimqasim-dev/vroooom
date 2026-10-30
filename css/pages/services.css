@@ -9,3 +9,6 @@
 @media(prefers-reduced-motion:reduce){.services-additional li:is(:hover,:focus-visible) h3,.services-projects a:is(:hover,:focus-visible) img,.services-projects a:is(:hover,:focus-visible) h3 span{transform:none}}
 
 @media(prefers-reduced-motion:reduce){.services-content *::before,.services-content *::after{transition:none!important}}
+
+/* Decorative numbering removed; close only its former layout space. */
+.services-additional li{grid-template-columns:1fr 20px}.service-editorial h3{margin-top:0}

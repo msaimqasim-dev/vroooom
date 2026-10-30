@@ -1,0 +1,22 @@
+/* Contact primitives provide the approved typography, form controls and hero image. */
+.support-hero h1{max-width:100%}
+.support-layout{grid-template-columns:minmax(0,.38fr) minmax(0,.62fr)}
+.support-page .contact-form-area{padding:clamp(24px,3.2vw,48px)}
+.support-page .contact-field-grid{gap:0 22px}
+.support-page .support-choices{flex-wrap:wrap;gap:10px}
+.support-page .support-choices label{font-size:12px;padding:10px 13px}
+.support-sublabel{display:block;font-size:11px;color:var(--color-muted);font-weight:400}
+.support-page .support-sublabel{line-height:1.5}
+.support-page .support-help{font-size:11px;color:var(--color-muted);margin-top:10px;overflow-wrap:anywhere}
+.support-page input[type=file]{font-size:12px;line-height:1.7;overflow:hidden}
+.support-page input[type=file]::file-selector-button{font:600 11px Manrope,Arial,sans-serif;background:var(--color-background-light);color:var(--color-primary);border:1px solid var(--color-border);border-radius:30px;padding:10px 13px;margin:0 12px 4px 0;cursor:pointer}
+.support-page .support-notice{font-size:12px;line-height:1.8;border-left:2px solid var(--color-primary);padding:14px 18px;margin:0 0 24px;background:var(--color-background-light)}
+.support-availability{border-top:1px solid var(--color-border);padding-top:28px;margin-top:35px}
+.support-availability h3{font-weight:600;font-size:18px;letter-spacing:-.4px}
+.support-availability p{font-size:13px;color:var(--color-muted);margin:14px 0 22px}
+.support-page .support-status{font-size:13px;margin-top:20px;overflow-wrap:anywhere}
+.support-page .support-status:not(:empty){padding:16px;border:1px solid var(--color-border);background:var(--color-background-light)}
+.support-page .support-notice a{text-decoration:underline;text-underline-offset:3px}
+.support-page .contact-submit:disabled{cursor:not-allowed}
+@media(min-width:1024px){.support-page .contact-field-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:767px){.support-layout{grid-template-columns:1fr}.support-page .contact-form-area{padding:25px 20px}.support-hero h1{font-size:clamp(48px,11vw,70px)}.support-page .contact-radio label{min-height:44px}}

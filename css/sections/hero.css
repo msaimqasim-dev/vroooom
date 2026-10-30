@@ -149,3 +149,6 @@
   .cinematic-hero .button, .cinematic-hero .hero-secondary, .hero .button svg { transition: none; }
 }
 
+
+/* Decorative numbering removed; close only its former layout space. */
+.cinematic-hero .hero-eyebrow{font-weight:700;color:var(--color-white);border-color:color-mix(in srgb,var(--color-primary-light) 65%,transparent);background:color-mix(in srgb,var(--color-primary) 16%,transparent)}
