@@ -64,3 +64,38 @@
 - Reviewed the intended website updates on `main` against `origin/main` in https://github.com/saim-codestack/vroooom. Existing dependency, environment, credential, backup and temporary-file exclusions remain in place. Credential-pattern and oversized-file scans found no matches.
 - Checkpoint message: `Checkpoint: Vroooom website before accent color updates`. Requested restore tag: `pre-accent-colors`; upcoming work branch: `experiment/accent-colors`. Neither reference existed locally or remotely during inspection. Remote commit/reference verification is reported in the task result.
 - This task makes no website code, layout, color or animation changes; this log entry records the checkpoint scope.
+
+## Task 06 - Accent color experiment - tested 2026-10-31; subsequently reverted
+
+- Confirmed clean `experiment/accent-colors` branch before editing; retained `pre-accent-colors` as the purple reference. Changes are limited to six CSS files and this plan; no HTML, JavaScript, image or other asset changes.
+- Added centralized muted sage-lime tokens in `css/variables.css`: base `#bdcc8a`, hover `#cfdaa9`, readable dark-green `#50612f`, existing dark-purple ink and a light surface mix. Original purple/lavender tokens, background gradients and image filters remain unchanged.
+- Applied sparingly to selected header Get a Quote, homepage hero and shared Final CTA buttons, the small hero eyebrow dot, active navbar text/underline, selected Services arrows/hover tint and footer back-to-top arrow/link hover. Other page CTAs, headings, body text and dominant surfaces retain the approved purple palette. Dark-surface arrows use the light lime; light-surface arrows use dark green. Button inset borders improve edge contrast without changing geometry.
+- Changed CSS: `css/variables.css`, `css/components/header.css`, `css/components/footer.css`, `css/sections/hero.css`, `css/sections/final-cta.css`, `css/pages/services.css`. No spacing, font, layout or animation rules were changed.
+- Browser checks passed on all 17 pages at 1920/1440/768/390px. Made 34 comparisons against CSS served directly from the `pre-accent-colors` tag at desktop/mobile widths: selected element geometry, purple background images/gradients, image sources and image filters matched exactly. Navbar/CTA colors, mobile menu/dropdown operation and no horizontal overflow verified.
+- Selected CTA text/background contrast measured 10.92:1 in the normal state; dark-green text on both off-white and lavender, and lime on dark-purple surfaces, passed 4.5:1 checks. Verified CTA/footer hover colors, active navigation underline and keyboard focus. Reviewed updated desktop/mobile homepage screenshots against the purple reference.
+- Live spiral forward/reverse transform consistency, single pin and pin release passed at 1440/768/390px. Reduced-motion checks, existing asset loading and console/runtime checks passed with no missing assets or captured errors. All work remains on `experiment/accent-colors`.
+
+## Accent experiment rollback - completed 2026-10-31
+
+- Inspected the checkpoint diff and restored only the six accent-experiment CSS files from `pre-accent-colors`. Removed the added lime variables, CTA colors, active-navigation decoration, service highlights and footer overrides. Historical experiment notes above remain as a record, not current styling.
+- Verified every website file matches the approved checkpoint with `git diff --exit-code pre-accent-colors -- . ':!PROJECT_PLAN.md'`. The project log is the only difference from that checkpoint; no unrelated improvements, HTML/JS structure, imagery, layouts or animations were removed. No hard reset, history rewrite or force-push was used.
+- Browser checks passed across all 17 pages at 1920/1440/768/390px: restored purple navbar/shared CTAs, original white homepage hero CTA, dark-purple footer, no lime token, no horizontal overflow and working mobile menu/dropdown. No missing local assets or captured console/runtime errors. Remains on `experiment/accent-colors`.
+
+## Adam Ray temporary biography - 2026-11-03
+
+- Replaced Adam's biography-placeholder sentence with user-requested dummy biography copy for later replacement. Retained `data-biography-placeholder` as an editing marker. No credentials, employment history, or other specific background claims added.
+- Kept the existing paragraph, portrait container, role, styling, and other profiles unchanged. Rechecked the team at desktop, tablet, and mobile widths using the existing browser check; see verification result for this task.
+
+## About team profile update - completed 2026-11-03
+
+- Replaced Samantha's placeholder with Samantha Ceballos, Graphic Designer, the existing `assets/images/about/Samantha.jpg`, and the supplied biography, expertise, and education verbatim. Reused portrait crop, hover, typography, and responsive grid; scoped paragraph styling to Samantha to retain the existing biography appearance.
+- Removed only Adam Ray's visible photograph-placeholder label, retaining his portrait container, initials, dimensions, and profile. Other team members and sections remain unchanged by this task.
+- Browser verification passed at 1440/768/390/320px: photo loads and decodes, exact biography and role, consistent 4:5 portrait dimensions, biographies below portraits, preserved hover rule, no horizontal overflow or runtime exceptions. Check: `node qa/team-update-check.mjs` from `html-site/` with Chrome debugging on port 9223. Existing image filename preserved (file contents are PNG despite its saved `.jpg` extension; Chrome successfully decoded it).
+
+## Task 07 - Essential updates and quick QA - 2026-10-31
+
+- Verified Columbus corporate-office and Atlanta service-location wording against https://www.vroooom.com/contact-us/. Added both to Contact and reused its exact Google Maps destination (HTTP 200); no unverified street address added.
+- Added requested service terminology naturally within existing content. Fixed the missing homepage meta description/generic title, six duplicated article descriptions and Portfolio description punctuation. All 17 pages now have unique titles/descriptions and one H1.
+- Fixed the confirmed Contact phone-pattern browser error and missing favicon requests using existing logo assets. No CSS, JavaScript, photographs, layout or animation changes; those files still match the approved checkpoint.
+- Essential browser QA passed across 17 pages at 1440/768/390/320px: 125 local URLs and 174 links including anchors, decoded images, mobile menu/dropdown/Escape, call destination, no overflow or captured errors. Contact/Support validation works; real submission remains disabled, with honest fallback messages and zero test POSTs. Animated Services carousel and spiral forward/reverse/pin release passed at 1440/768/390px.
+- Pending integrations: Contact needs verified form delivery configuration; Support needs its Gravity Forms ticket adapter. Existing live-form links remain available. No chat widget is present in the rebuild. The original uses the custom WordPress SEO Lead Chatbot (nonce-based REST chat and lead endpoints), with no verified standalone embed/config endpoint. Requested approved embed/backend details; local bottom-right chat operation/overlap cannot be verified until integrated. No fake chat or copied expiring nonce added.

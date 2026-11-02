@@ -84,7 +84,8 @@
 .about-person:hover img { transform:scale(1.025); }
 .about-person .about-role { color:var(--color-primary); font-size:10px; margin:12px 0 18px; }
 .about-person h3 { font-size:clamp(30px,2.6vw,42px); letter-spacing:-.055em; line-height:1.12; margin:24px 0 0; min-height:2.24em; }
-.about-person > p:last-child { color:var(--color-muted); max-width:430px; font-size:13px; }
+.about-person > p:last-child,
+.about-person[data-team-member="samantha"] > p:not(.about-role) { color:var(--color-muted); max-width:430px; font-size:13px; }
 .about-values { background:var(--color-surface-lavender); }
 .about-value-list { list-style:none; padding:0; }
 .about-value-list li { position:relative; display:grid; grid-template-columns:25px 1fr; gap:15px; padding:26px 0; border-top:1px solid color-mix(in srgb,var(--color-text) 15%,transparent); transition:background .45s cubic-bezier(.22,1,.36,1); }
