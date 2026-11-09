@@ -9,30 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/variables.css">
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./css/components/header.css">
-    <link rel="stylesheet" href="./css/sections/hero.css">
-    <link rel="stylesheet" href="./css/sections/agency-intro.css">
-    <link rel="stylesheet" href="./css/sections/spiral-portfolio.css">
-    <link rel="stylesheet" href="./css/sections/brand-marquee.css">
-    <link rel="stylesheet" href="./css/sections/why-vroooom.css">
-    <link rel="stylesheet" href="./css/sections/services.css">
-    <link rel="stylesheet" href="./css/sections/process.css">
-    <link rel="stylesheet" href="./css/sections/recognition.css">
-    <link rel="stylesheet" href="./css/sections/final-cta.css">
-    <link rel="stylesheet" href="./css/components/footer.css">
-    <script defer src="./vendor/gsap/gsap.min.js"></script>
-    <script defer src="./vendor/gsap/ScrollTrigger.min.js"></script>
-    <script type="module" src="./js/sections/agency-intro.js"></script>
-    <script type="module" src="./js/sections/spiral-gallery.js"></script>
-    <script type="module" src="./js/sections/why-vroooom.js"></script>
-    <script type="module" src="./js/sections/services-carousel.js"></script>
-    <script type="module" src="./js/sections/process.js"></script>
-    <script type="module" src="./js/sections/recognition.js"></script>
-    <script type="module" src="./js/sections/final-cta.js"></script>
-    <script type="module" src="./js/components/footer.js"></script>
-    <script type="module" src="./scripts/main.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <script defer src="./js/gsap-bundle.min.js"></script>
+    <script type="module" src="./js/home.js"></script>
+    <script type="module" src="./js/site.js"></script>
   </head>
   <body>
     <div data-site-header></div>
@@ -63,7 +45,7 @@
           <div class="agency-eyebrow agency-reveal"><span class="dot" aria-hidden="true"></span>HELLO, WE’RE VROOOOM</div>
           <h2 id="agency-heading" class="agency-reveal">Your Team. Our Team.<br><em>One Team.</em></h2>
           <p class="agency-reveal">A creative partner. An extension of your team.<br>We bring thoughtful website design and digital marketing together to turn your ideas into a presence that feels like you.</p>
-          <a class="button agency-reveal" href="about/#team">Meet your creative partners <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
+          <a class="button agency-reveal" href="./about.html#team">Meet your creative partners <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
         </div>
         <div class="agency-card-scene" role="group" aria-label="Original Vroooom website previews">
           <figure class="agency-card agency-card-1"><div class="agency-card-reveal"><div class="agency-card-float"><div class="agency-card-surface"><img src="./assets/images/portfolio/project-300.jpg" alt="Original Shannon B Whittington website preview published by Vroooom" width="440" height="340" loading="lazy"><figcaption><strong>Website design</strong><span>Original portfolio preview</span></figcaption></div></div></div></figure>
@@ -98,7 +80,7 @@
             <article data-reveal tabindex="0"><h3>People before pixels.</h3><p>We take time to understand your business. Your perspective shapes the work, from our first conversation onward.</p></article>
             <article data-reveal tabindex="0"><h3>Everything works together.</h3><p>Design, content, search, and hosting belong in the same conversation. We help connect the pieces.</p></article>
             <article data-reveal tabindex="0"><h3>A relationship, not a handoff.</h3><p>Your digital presence keeps evolving. Our team can support your website and marketing as your business grows.</p></article>
-            <a class="text-link" href="about/#history">Get to know our story <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
+            <a class="text-link" href="./our-history.html">Get to know our story <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
           </div>
         </div>
       </section>
@@ -111,27 +93,27 @@
           <article class="services-slide" data-active="true" tabindex="0" aria-label="Website design, 1 of 5">
             <img src="./assets/images/agency/agency-ui-placeholder.jpg" alt="Website design workspace" width="700" height="1000" loading="lazy">
             <h3 class="services-slide-name">Website design</h3>
-            <div class="services-slide-detail"><p>A custom website shaped around your business, your audience, and what makes you different.</p><a class="services-book" href="website-design/">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
+            <div class="services-slide-detail"><p>A custom website shaped around your business, your audience, and what makes you different.</p><a class="services-book" href="./website-design.html">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
           </article>
           <article class="services-slide" data-active="false" tabindex="0" aria-label="Digital marketing, 2 of 5">
             <img src="./assets/images/agency/agency-social-placeholder.jpg" alt="Digital marketing analytics workspace" width="700" height="1000" loading="lazy">
             <h3 class="services-slide-name">Digital marketing</h3>
-            <div class="services-slide-detail"><p>Connect the pieces with SEO, SEM, social media marketing, and content that speaks to your audience.</p><a class="services-book" href="website-marketing/">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
+            <div class="services-slide-detail"><p>Connect the pieces with SEO, SEM, social media marketing, and content that speaks to your audience.</p><a class="services-book" href="./website-marketing.html">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
           </article>
           <article class="services-slide" data-active="false" tabindex="0" aria-label="Logo & branding, 3 of 5">
             <img src="./assets/images/agency/agency-brand-placeholder.jpg" alt="Creative brand planning workspace" width="700" height="1000" loading="lazy">
             <h3 class="services-slide-name">Logo &amp; branding</h3>
-            <div class="services-slide-detail"><p>Make a clear first impression with a custom logo and a visual identity that feels like you.</p><a class="services-book" href="services/#additional-services">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
+            <div class="services-slide-detail"><p>Make a clear first impression with a custom logo and a visual identity that feels like you.</p><a class="services-book" href="./services.html#additional-services">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
           </article>
           <article class="services-slide" data-active="false" tabindex="0" aria-label="eCommerce, 4 of 5">
             <img src="./assets/images/agency/service-ecommerce-placeholder.jpg" alt="Shopping imagery illustrating eCommerce" width="700" height="1000" loading="lazy">
             <h3 class="services-slide-name">eCommerce</h3>
-            <div class="services-slide-detail"><p>Bring your products online with an e-commerce website designed to help customers explore and connect.</p><a class="services-book" href="services/#additional-services">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
+            <div class="services-slide-detail"><p>Bring your products online with an e-commerce website designed to help customers explore and connect.</p><a class="services-book" href="./services.html#additional-services">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
           </article>
           <article class="services-slide" data-active="false" tabindex="0" aria-label="Website hosting, 5 of 5">
             <img src="./assets/images/agency/service-hosting-placeholder.jpg" alt="Server infrastructure illustrating website hosting" width="700" height="1000" loading="lazy">
             <h3 class="services-slide-name">Website hosting</h3>
-            <div class="services-slide-detail"><p>A dependable home for your business website or online store, with hosting and offsite database backups.</p><a class="services-book" href="website-hosting/">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
+            <div class="services-slide-detail"><p>A dependable home for your business website or online store, with hosting and offsite database backups.</p><a class="services-book" href="./website-hosting.html">Book this service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a></div>
           </article>
           </div>
           <div class="services-controls">
@@ -166,7 +148,7 @@
           <blockquote>They were fast and always responsive when I had a new idea or change of direction.</blockquote>
           <div class="quote-footer">
             <span><strong>Herman Williams</strong><br>Vroooom client</span>
-            <a class="text-link" href="about/#testimonials">Read client stories <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
+            <a class="text-link" href="./about.html#testimonials">Read client stories <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
           </div>
         </div>
         <div class="recognition-strip">
@@ -180,7 +162,7 @@
         <div class="section-label"><span class="dot" aria-hidden="true"></span>LET’S MAKE YOUR NEXT CHAPTER A GOOD ONE</div>
         <h2 id="contact-heading" data-reveal>Have a spark?<br><em>Let’s give it momentum.</em></h2>
         <div class="contact-bottom">
-          <a class="button" href="contact-us/">Start a conversation <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
+          <a class="button" href="./contact-us.html">Start a conversation <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
           <a class="text-link" href="tel:+17065764702">Or give us a call <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10M7 17 17 7"/></svg></a>
           <span class="contact-star" aria-hidden="true">✳</span>
         </div>

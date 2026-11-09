@@ -1,0 +1,35 @@
+/* Shared flip mechanics, with individual award artwork supplied by the page. */
+.heritage-content{padding:64px max(6vw,24px) 88px;background:var(--color-background-light)}
+.heritage-intro{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:36px;font-size:12px;line-height:1.7;color:var(--color-primary-dark)}
+.heritage-intro>p:first-child{letter-spacing:.1em;font-size:11px}
+.heritage-grid{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.heritage-item{min-width:0}
+.flip-card{position:relative;perspective:1600px;height:470px;border-radius:18px;outline-offset:6px;-webkit-tap-highlight-color:transparent}
+.flip-inner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.22,.75,.2,1)}
+.flip-card.is-flipped .flip-inner{transform:rotateY(180deg)}
+.flip-front,.flip-back{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:18px;overflow:hidden;box-shadow:0 12px 32px #2b123009;border:1px solid #9574b52e}
+.flip-front{display:flex;flex-direction:column;padding:26px 28px;background:linear-gradient(145deg,#fff 5%,#f1e9fa 100%);color:var(--color-primary-dark)}
+.award-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#705386;font-size:10px;letter-spacing:.08em}
+.card-index{font-variant-numeric:tabular-nums}.card-category{text-align:right;font-size:9px}
+.award-art{min-height:180px;flex:1;display:flex;align-items:center;justify-content:center;padding:18px 0 8px}
+.award-image{display:block;max-width:100%;width:230px;height:145px;object-fit:contain}.award-image[src*=marquis]{width:150px;height:150px}
+.recognition-emblem{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;min-height:165px;text-align:center;color:#4b1e64}
+.recognition-emblem::before,.recognition-emblem::after{content:'';position:absolute;width:25px;height:1px;background:#ac8bb9;top:50%}.recognition-emblem::before{left:0}.recognition-emblem::after{right:0}
+.recognition-emblem>span{font-size:8px;letter-spacing:.14em;line-height:1.6;margin-bottom:14px;max-width:90%}
+.recognition-emblem strong{font-family:'Instrument Serif',Georgia,serif;font-size:39px;font-weight:400;letter-spacing:-.03em;line-height:1.02}.recognition-emblem strong em{font-size:36px}.recognition-emblem i{font-size:15px;font-style:normal;color:#a77d47;margin-top:12px}
+.emblem-1{color:#594025}.emblem-2{color:#433561}.emblem-3{color:#4c375a}
+.flip-front h2{font-size:clamp(20px,1.65vw,26px);line-height:1.25;letter-spacing:-.035em;font-weight:500;margin:15px 0 18px}
+.card-footnote{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #9873b02e;padding-top:14px;color:#705386;font-size:10px;letter-spacing:.05em}.card-read-cue{font-size:23px;line-height:1}
+.flip-back{transform:rotateY(180deg);background:linear-gradient(135deg,#281335,#43175b);color:#fff;display:flex;flex-direction:column;padding:28px 12px 18px 28px}
+.flip-back-scroll{overflow:auto;min-height:0;flex:1;padding-right:16px;scrollbar-width:thin;scrollbar-color:#b28ac9 #ffffff12;overscroll-behavior:contain;touch-action:pan-y}
+.flip-back-scroll::-webkit-scrollbar{width:5px}.flip-back-scroll::-webkit-scrollbar-thumb{background:#b28ac9;border-radius:5px}
+.back-eyebrow{display:block;font-size:9px;letter-spacing:.15em;color:#d6b6e8;margin:0 0 25px}
+.flip-back h2{font-size:clamp(23px,2vw,30px);font-weight:500;letter-spacing:-.035em;line-height:1.2;color:#f4e8ff;margin:0 0 24px}.flip-back h3{font-size:19px;font-weight:500;line-height:1.4;margin:0 0 18px;color:#e8cef8}.flip-back p{font-size:17px;line-height:1.8;color:#f8f1ff;margin:0;white-space:pre-line}
+.flip-card:focus-visible,.flip-back-scroll:focus-visible{outline:2px solid var(--color-primary);outline-offset:5px}.flip-back-scroll:focus-visible{outline-color:#e3b9ff;outline-offset:-2px}
+@media(hover:hover) and (pointer:fine){.flip-card .card-read-cue{transition:transform .35s}.flip-card:hover .card-read-cue{transform:translate(2px,-2px)}}
+@media(max-width:1100px){.heritage-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.flip-front h2{font-size:24px}}
+@media(max-width:620px){.heritage-grid{grid-template-columns:1fr;gap:24px}.heritage-intro{align-items:flex-start;flex-direction:column;gap:10px;margin-bottom:28px}.heritage-content{padding:40px 24px 64px}.flip-card{height:470px}.flip-front{padding:24px}.award-art{height:198px}.flip-back{padding:26px 10px 18px 24px}.flip-front h2{font-size:23px}.recognition-emblem strong{font-size:40px}}
+@media(prefers-reduced-motion:reduce){.flip-inner,.card-read-cue{transition:none!important}.heritage-item{animation:none!important}}
+
+/* Instructions remain available to keyboard and screen-reader visitors. */
+.back-hint,.flip-instructions{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
