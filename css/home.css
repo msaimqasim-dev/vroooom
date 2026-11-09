@@ -107,6 +107,7 @@
 .why *, .why *::before, .why *::after { box-sizing: border-box; }
 .why h2, .why h3, .why p { margin: 0; }
 .why h2 { font-size: clamp(45px, 5.4vw, 82px); line-height: 1.08; letter-spacing: -4px; font-weight: 500; }
+@media (min-width: 1024px) { #why-heading em { font-size: 80px; } }
 .why em { font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; }
 .why p { line-height: 1.8; }
 .why .section-label { font-size: 10px; letter-spacing: 1.1px; display: flex; align-items: center; gap: 10px; margin-bottom: 43px; }
