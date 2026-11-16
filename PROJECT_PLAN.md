@@ -120,3 +120,11 @@
 - Added the shared footer Packages link and a compact Website Marketing callout after Marketing Solutions, retaining its earlier comparison link. Added both exact Custom Package invitations to the packages page; those and the final custom quote CTA target contact-us/?package=Custom#quote.
 - Extended the existing contact prefill whitelist for Custom with the exact template, preserving user-entered text and the three existing plans. Unchanged Custom templates fail the existing required-field validation message; delivery configuration and submission handlers remain unchanged.
 - Expanded the retained regression check: desktop hover/pointer traversal at 1101/1280/1440/1920px, mobile submenu and nested Escape, exactly four primary routes and footer links on all 18 pages, Custom anchor/prefill/template rejection/user text preservation and existing plan prefills. Packages passed six widths, all pages passed three widths, and 221 local links/assets/anchors passed without captured browser errors. No external form submissions or deployment performed.
+## Navbar flyout spacing - completed 2026-11-16
+
+- Added a desktop gap between the Services panel and its Digital Marketing Packages flyout, including the left-opening variant. An invisible pointer bridge keeps the flyout open while crossing the gap. Mobile inline submenu styling is unchanged.
+- Focused browser checks passed at 1101/1280/1440/1920px for visible panel spacing, pointer traversal and viewport bounds; mobile layout checks passed at 320/390/768/1024px with no overflow or captured browser errors. Runtime change is limited to css/components/header.css.
+
+## Packages final CTA link removal - completed 2026-11-16
+
+- Removed only the secondary Contact Our Team link from the final packages CTA. Verified the primary Request a Custom Quote button and its Custom contact destination remain intact. No style or interaction changes.
