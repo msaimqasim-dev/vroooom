@@ -1,0 +1,36 @@
+### TIER 1 — BASIC PLAN
+| Core Capability | Monthly Execution Scope | Monthly Deliverables |
+| Search Engine Optimization (SEO) | Keyword research, meta titles/descriptions, and heading tags | Up to 15 Keywords / 3-5 Pages |
+| Social Media Marketing (SMM) | Channel profile hygiene audit and branding consistency check | Audit Only / No Active Posts |
+| Pay-Per-Click Advertising (PPC) | Account setup review and keyword negative matching check | Baseline Recommendations |
+| Content Marketing | Blog content audit and existing keyword opportunity list | Strategy Outline / No Writing |
+| Email Marketing | Email list hygiene check and subscriber capture form audit | Setup Review |
+| Branding & Brand Awareness | Brand visual asset consistency check across active channels | Brand Audit Report |
+| Analytics & Tracking | Google Analytics (GA4) & Google Search Console maintenance | Setup & Monthly Health Check |
+| Answer Engine Optimization (AEO) | Basic FAQ schema check on primary landing pages | Not Included |
+| Generative Engine Optimization (GEO) | AI crawler readiness checks (robots.txt permissions) | Not Included |
+| Marketing Strategy & Planning | Initial 3-month growth roadmap and quarterly performance review | Quarterly Roadmap Document |
+### TIER 2 — ADVANCED PLAN (RECOMMENDED)
+| Core Capability | Monthly Execution Scope | Monthly Deliverables |
+| Search Engine Optimization (SEO) | Advanced on-page, Core Web Vitals, speed fixes, and backlinks | Up to 40 Keywords / 8-10 Pages |
+| Social Media Marketing (SMM) | Content calendar design, scheduled posts, and audience engagement | 8 to 12 Posts / Mo across 2 platforms |
+| Pay-Per-Click Advertising (PPC) | Campaign structure optimization, ad copy A/B tests, and bid tuning | Active Campaign Management |
+| Content Marketing | Writing, optimizing, and publishing high-intent commercial content | 2 Long-Form Articles (1,200+ w) |
+| Email Marketing | Monthly newsletter authoring, list segmentation, and nurture sequence | 1 to 2 Broadcasts / Mo |
+| Branding & Brand Awareness | Targeted outreach, visual asset optimization, and trust building | Brand Mention Tracking |
+| Analytics & Tracking | Full funnel event tracking, goal conversions, and attribution setup | Custom Monthly KPI Dashboard |
+| Answer Engine Optimization (AEO) | Voice & AI answer engine readiness assessment | Not Included (Available in Premium) |
+| Generative Engine Optimization (GEO) | AI model citations and generative search visibility setup | Not Included (Available in Premium) |
+| Marketing Strategy & Planning | Monthly sprint planning, competitor gap analysis, and review call | Monthly 30-Min Strategy Call |
+### TIER 3 — PREMIUM PLAN
+| Core Capability | Monthly Execution Scope | Monthly Deliverables |
+| Search Engine Optimization (SEO) | Topical authority hubs, server logs, and digital PR link acquisition | 80+ Keywords / 15-20 Pages |
+| Social Media Marketing (SMM) | Multi-channel content creation, graphic design, and community management | 16 to 20 Custom Posts / Mo |
+| Pay-Per-Click Advertising (PPC) | Multi-funnel PPC (Search, Retargeting, Display), landing page CRO | Enterprise Ad Management |
+| Content Marketing | Authoritative pillar guides, whitepapers, and conversion landing pages | 4 Deep Content Assets (2,000+ w) |
+| Email Marketing | Automated multi-step drip sequences, behavioral triggers, and campaigns | Full Email Automation Engine |
+| Branding & Brand Awareness | High-tier digital PR outreach, guest publications, and editorial citations | 8 to 10 High-Authority Mentions |
+| Analytics & Tracking | Enterprise BI dashboard, multi-touch attribution, and revenue tracking | Real-Time Executive Dashboard |
+| Answer Engine Optimization (AEO) | Complete structured knowledge graph & conversational voice answer siloing | Advanced Nested Knowledge Graph |
+| Generative Engine Optimization (GEO) | Optimization for ChatGPT, Gemini, Perplexity, and AI Overviews | Full AI Model Visibility Plan |
+| Marketing Strategy & Planning | Bi-weekly C-level strategic consulting and rapid quarterly roadmap pivots | Bi-Weekly Strategy Conference |

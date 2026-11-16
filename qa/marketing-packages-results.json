@@ -1,0 +1,54 @@
+{
+  "sourceCellsVerified": 90,
+  "results": [
+    {
+      "width": 320,
+      "plans": 3,
+      "scopeRows": 30,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "plans": 3,
+      "scopeRows": 30,
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "plans": 3,
+      "scopeRows": 30,
+      "noOverflow": true
+    },
+    {
+      "width": 1024,
+      "plans": 3,
+      "scopeRows": 30,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "plans": 3,
+      "scopeRows": 30,
+      "noOverflow": true
+    },
+    {
+      "width": 1920,
+      "plans": 3,
+      "scopeRows": 30,
+      "noOverflow": true
+    }
+  ],
+  "sitePages": 18,
+  "siteWidths": [
+    320,
+    768,
+    1440
+  ],
+  "localUrlsChecked": 220,
+  "keyboard": true,
+  "mobileNavigation": true,
+  "quotePrefill": true,
+  "localLinks": true,
+  "reducedMotion": true,
+  "errors": []
+}

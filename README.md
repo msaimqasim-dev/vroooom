@@ -1,38 +1,30 @@
-﻿# Vroooom HTML website
+# Vroooom HTML website
 
-The homepage uses semantic HTML, section-scoped CSS, native JavaScript modules, and the existing local GSAP/ScrollTrigger distribution. The root React/Vite project remains the approved reference and is not part of this site's runtime.
+Plain HTML, CSS and vanilla JavaScript. Serve this directory over HTTP; module imports and shared fragments require a web server. No build step is required. The parent React/Vite project is a separate visual reference and is not part of deployment.
 
-Serve this directory over HTTP. Opening index.html directly as a file does not support module imports and shared fragment requests. Root npm commands still run the React reference.
+## Structure
 
-## Runtime structure
+- `index.html`: homepage.
+- Each other page uses `<page>/index.html`, including `digital-marketing-packages/index.html`. Blog articles use `blog/posts/<slug>/index.html`.
+- `css/pages/` and `js/pages/`: page-specific styles and interactions.
+- `css/sections/` and `js/sections/`: homepage and shared section styles/interactions.
+- `css/variables.css` and `styles/main.css`: shared palette and document styling.
+- `sections/home/navigation/section.html`, `js/components/header.js`, `css/components/header.css`, `scripts/main.js`: shared navigation and startup.
+- `components/footer.html`, `js/components/footer.js`, `css/components/footer.css`: shared footer.
+- `js/data/`: active portfolio datasets. Blog and website project cards are authored directly in their HTML pages.
+- `assets/` and `vendor/`: required images and local GSAP/ScrollTrigger, including license information.
+- `qa/`: development-only reference audit, regression check, package-content fixture and latest results.
 
-- `index.html`: homepage markup and shared component mounts.
-- `about/index.html`: consolidated About page; content provenance is in `about/SOURCES.md`.
-- `css/pages/about.css`, `js/pages/about.js`: page-owned layout and initialization, with separate timeline/testimonial modules in `js/sections/`.
-- `css/variables.css`: shared purple palette; load before component/page styles.
-- `css/sections/`, `js/sections/`: independent section styles and behavior. Do not merge them.
-- `styles/main.css`: approved document palette.
-- `scripts/main.js`: header startup.
-- `sections/home/navigation/section.html`, `js/components/header.js`, `css/components/header.css`: reusable header.
-- `components/footer.html`, `js/components/footer.js`, `css/components/footer.css`: reusable footer.
-- `js/data/portfolio.js`: portfolio records and configurable geometry. Card orientation lives in `js/sections/spiral-gallery.js`.
-- `assets/images/`: unchanged copies of approved imagery.
-- `vendor/gsap/`: existing GSAP/ScrollTrigger 3.15.0 distribution with license notices.
+Use module-relative URLs for shared fragments and appropriate relative URLs for nested page assets. Keep package content directly in its HTML; there is no page generator to run.
 
-For future nested pages, load shared component stylesheets and modules using appropriate relative URLs, and provide `[data-site-header]` / `[data-site-footer]` mounts. Module-relative fragment URLs work from nested pages. About navigation resolves to the consolidated page. Work, Services, and Process link to homepage anchors from nested pages. Footer team/awards links target About anchors; other unimplemented pages retain official destinations. Empty scaffold directories remain reserved for future work.
+## Verification
 
-## QA and publishing
+From this directory, run `node qa/audit-runtime.mjs` for a conservative unreferenced-file audit. Run `node qa/marketing-packages-check.mjs` with a headless Chromium instance exposing DevTools on port 9245. The check serves the site temporarily on port 5182, verifies all pages, local links/assets/anchors and package interactions, and writes one results JSON. It does not submit forms or generate screenshots.
 
-Run the current complete check from the repository root with headless Edge debugging at port 9223:
+## Publishing
 
-```powershell
-node html-site/qa/homepage-qa.mjs
-node html-site/qa/about-check.mjs
-node html-site/qa/about-interactions.mjs
-```
+Upload the root `index.html`, all public page folders, `assets/`, `components/`, `css/`, `js/`, `scripts/main.js`, `styles/`, `sections/home/navigation/section.html` and `vendor/`, preserving their paths. Exclude `.git/`, `qa/`, root Markdown documentation and page/asset provenance Markdown from the public upload. Keep vendor licensing notices. Configure the host to serve folder `index.html` files.
 
-The check uses Node's built-in HTTP server and Chrome DevTools Protocol, serving this site and the existing React dist reference on local ports 5182/5183. See `QA_REPORT.md` for findings and remaining limits.
+The packages URL is `/digital-marketing-packages/`. Shared navigation and contact links already use that URL. Nothing has been deployed as part of cleanup.
 
-The qa directory contains historical development scripts and screenshots, including superseded stages. Keep these as evidence and exclude qa, documentation, and .gitkeep files from published website assets. Production runtime consists of index.html, about/index.html, css, styles, js, scripts, components, the navigation fragment under sections, assets, and vendor. No bundler is required for this HTML site.
-
-Legacy About URL redirects depend on the deployment host; proposed mappings and source assets are documented in `about/SOURCES.md`.
+Contact delivery remains disabled until a verified endpoint is configured in `js/pages/contact-form-config.js`. Support also retains its original-form fallback pending its ticket adapter. Existing direct contact and live-form links remain available. See `QA_REPORT.md` for the current checks and limits; source/asset provenance documents are retained.

@@ -99,3 +99,18 @@
 - Fixed the confirmed Contact phone-pattern browser error and missing favicon requests using existing logo assets. No CSS, JavaScript, photographs, layout or animation changes; those files still match the approved checkpoint.
 - Essential browser QA passed across 17 pages at 1440/768/390/320px: 125 local URLs and 174 links including anchors, decoded images, mobile menu/dropdown/Escape, call destination, no overflow or captured errors. Contact/Support validation works; real submission remains disabled, with honest fallback messages and zero test POSTs. Animated Services carousel and spiral forward/reverse/pin release passed at 1440/768/390px.
 - Pending integrations: Contact needs verified form delivery configuration; Support needs its Gravity Forms ticket adapter. Existing live-form links remain available. No chat widget is present in the rebuild. The original uses the custom WordPress SEO Lead Chatbot (nonce-based REST chat and lead endpoints), with no verified standalone embed/config endpoint. Requested approved embed/backend details; local bottom-right chat operation/overlap cannot be verified until integrated. No fake chat or copied expiring nonce added.
+
+## Digital Marketing Packages - completed 2026-11-16
+
+- Added digital-marketing-packages.html with scoped CSS and vanilla JS, using existing shared header/footer loaders and purple/Manrope/Instrument Serif design. Includes ten capabilities, three quote-based plans, full comparison, thirty exact scope entries, accessible progressively enhanced tabs, four-week timeline and final CTA.
+- Connected Services navigation, website-marketing/index.html and services/index.html. Selected plan prefills the existing contact requirements field; submission configuration and fallback remain unchanged.
+- Retained supplied source in data/marketing-packages-source.txt, with reproducible generator and QA. All ninety table cells verified against source. Basic/Advanced AEO and GEO execution descriptions coexist with explicitly excluded deliverables; ambiguity is flagged visibly and services are not promised.
+- Browser QA passed 320/390/768/1024/1440/1920px across all tabs, with no horizontal overflow or captured runtime/console errors. Keyboard arrows/End, mobile Services dropdown/Escape, local destinations, three contact prefills and reduced-motion rendering passed. Desktop/mobile hero screenshots reviewed. No form submissions performed; existing delivery integration remains pending.
+
+
+## Pre-publication cleanup - completed 2026-11-16
+
+- Moved packages to digital-marketing-packages/index.html and its CSS/JS to css/pages/ and js/pages/. Updated shared navigation, routes, service links, nested assets and regression checks. The earlier flat-page implementation entry is superseded by this layout.
+- Removed 246 obsolete files (about 47.9 MB): historical QA artifacts, one-time generator, two unimported data modules and empty scaffold markers. Retained all referenced images, active modules, vendor licensing and provenance documents. Kept a compact current QA harness, source table fixture and results. No React reference files changed.
+- Removed duplicate Services stylesheet include and redundant package CSS overrides; formatted the package HTML/CSS. Rewrote publishing/QA instructions to match the current layout. Package source is now maintained directly in HTML.
+- Verified all 18 pages at 320/768/1440px; 220 local links/assets/anchors; packages at six widths, all source table cells, keyboard/mobile controls, reduced motion and selected-plan prefill. No captured browser errors or horizontal overflow. No submissions or deployment performed. Existing contact/support integration limits remain.

@@ -4,6 +4,7 @@ export const serviceRoutes = Object.freeze({
   services: 'services/',
   websiteDesign: 'website-design/',
   websiteMarketing: 'website-marketing/',
+  digitalMarketingPackages: 'digital-marketing-packages/',
   websiteHosting: 'website-hosting/'
 });
 export const localURL = route => new URL(route, siteBase);
