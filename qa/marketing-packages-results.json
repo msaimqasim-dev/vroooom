@@ -44,9 +44,20 @@
     768,
     1440
   ],
-  "localUrlsChecked": 220,
+  "localUrlsChecked": 221,
   "keyboard": true,
   "mobileNavigation": true,
+  "desktopFlyoutWidths": [
+    1101,
+    1280,
+    1440,
+    1920
+  ],
+  "fourPrimaryServices": true,
+  "footerPackagesLink": true,
+  "customQuotePrefill": true,
+  "customTemplateRejected": true,
+  "userTextPreserved": true,
   "quotePrefill": true,
   "localLinks": true,
   "reducedMotion": true,

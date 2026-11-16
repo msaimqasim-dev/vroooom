@@ -1,3 +1,17 @@
+.dmp-custom {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:30px;
+  padding:26px 0;
+  margin-top:26px;
+  border-block:1px solid var(--color-border);
+}
+.dmp-custom>div {max-width:680px}
+.dmp .dmp-custom h3 {font-size:23px;font-weight:500;line-height:1.3}
+.dmp .dmp-custom p {margin-top:10px;font-size:13px;color:var(--color-muted)}
+.dmp-custom .dmp-text-link {flex-shrink:0}
+@media(max-width:767px){.dmp-custom{flex-direction:column;align-items:flex-start;gap:20px}}
 .dmp {
   background:var(--color-background-light);
   color:var(--color-text);
